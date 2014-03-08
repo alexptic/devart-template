@@ -8,8 +8,7 @@
             "android"
         ],
         "toolkits": [
-            "openframeworks",
-            
+            "openframeworks"
         ]
     },
     "themes": [
