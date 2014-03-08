@@ -1,33 +1,26 @@
-# Project Title
-Insert the name of your project
+# SoundSphere
 
 ## Authors
-- Insert main author name, surname, github account
-- Insert other author(s) name, surname, github account (one per list element)
+- Alexey Kalinin, http://github.com/alexptic
+- Vladimir Doroshevskiy
 
 ## Description
-Insert a description containing about 100 to 150 words, including your motivation and the meaning behind your idea and execution. The Judges will be keen to know how your idea pushes the boundaries of code and technology. 
+<b>Core idea</b>
 
-## Link to Prototype
-NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
+Network sonic service. Users (“travelers”) can connect to the web-service using custom smarphone application. Application sends travelers’s coordinats to server. Server collecting location data of the travelers, generate from it music composition (soundscape) and stream it back to the traveler. Moving of the traveler change soundscape.  Thus, traveler becomes listener and the “source” of the sound at the same time.
 
-[Example Link](http://www.google.com "Example Link")
+<b>Core features</b>
 
-## Example Code
-NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
-```
-function test() {
-  console.log("Printing a test");
-}
-```
-## Links to External Libraries
- NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
+1.Individual mix
 
-[Example Link](http://www.google.com "Example Link")
+Each user hears his own version of composition (soundscape) depending of his location. Server generate individual mix for each connected user.  For example - highlights melodic line, specific for current area, or changes timbral characteristics of sound. 
+
+2.Sound memory of the area
+
+Amount of users, which visited some area of the city, affects on next generated sounds from this area. Area has some kind of memory. For example - street where already been 10 users sounds different than street on which been only 2 users, and both sounds different than abandoned street. 
+ 
 
 ## Images & Videos
-NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
-
-![Example Image](project_images/cover.jpg?raw=true "Example Image")
-
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
+Experimental musical performance at the Night of the Museums 2013 for Moscow Museum of Modern Art.
+Score, performed by musicians, was generated in real-time based on the GPS data from movements of travelers in the city.
+http://www.youtube.com/watch?v=a7s7hlUYkms
