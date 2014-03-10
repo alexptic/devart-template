@@ -1,4 +1,3 @@
-
 Application naturally decompose on two parts - client part and server part.
 
 ## Thin-client version
