@@ -7,18 +7,17 @@
 ## Description
 ###Core idea
 
-Network sonic service. Users (“travelers”) can connect to the web-service using custom smarphone application. Application sends travelers’s coordinats to server. Server collecting location data of the travelers, generate from it music composition (soundscape) and stream it back to the traveler. Moving of the traveler change soundscape.  Thus, traveler becomes listener and the “source” of the sound at the same time.
+Network sonic service. Users (“travelers”) can connect to the web-service using the custom smartphone application. The application sends travelers’s coordinates to the server. The server collects the location data of the travelers, generates a music composition (soundscape) from it and streams it back to the traveler. Movement of the traveler changes the soundscape.  Thus, the traveler becomes a listener and a “source” of the sound at the same time.
 
 ### Core features
 
 ####Individual mix
 
-Each user hears his own version of composition (soundscape) depending of his location. Server generate individual mix for each connected user.  For example - highlights melodic line, specific for current area, or changes timbral characteristics of sound. 
+Each user hears thier own version of composition (soundscape) depending on thier location. The server generates an individual mix for each connected user. For example - highlights melodic line, specific for current area, or changes timbral characteristics of sound. 
 
 ####Sound memory of the area
 
-Amount of users, which visited some area of the city, affects on next generated sounds from this area. Area has some kind of memory. For example - street where already been 10 users sounds different than street on which been only 2 users, and both sounds different than abandoned street. 
- 
+The amount of users, which visited a particular area of the city, affects the next generated sounds from this area.The area has its own memory. For example - streets where there have already been 10 users, create different sounds than streets on which there have been only 2 users, and both sound different than an abandoned street.
 
 ## Images & Videos
 Experimental musical performance at the Night of the Museums 2013 for Moscow Museum of Modern Art.
