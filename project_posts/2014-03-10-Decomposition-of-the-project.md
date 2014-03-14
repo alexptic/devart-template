@@ -1,18 +1,18 @@
 Application naturally decompose on two parts - client part and server part.
 
 ## Thin-client version
-In this version most of work performed on server side - client application only sends location data and receives audio stream.
-*Pros:*  easy logic on client side, less energy consumption.
+In this version most of work performed on server-side - client application only sends location data and receives audio stream.
+*Pros:*  easy logic on client-side, less energy consumption.
 *Cons:* high internet traffic, potentially delay in response.  
 
 
 ![Thin-client version](../project_images/thin_client.jpg?raw=true "Thin-client version")
 
-Server side consist following functional modules:
+Server-side consist of the following functional modules:
 
 ####Location data collector
 *Purpose:* Collect location data from connected clients and save it into database.
-*Implementation:* Server-side web-application. One instance for each connected user. Implementation languages: Dart, C++, Java. Data receives via Google map API or directly from device in JSON format. In demo purpose can be used online gps-tracking service http://livegpstracks.com/ which send location data in JSON format on HTTP request. I already used this service in “Concert for city and 4 musicians” media-performance.  
+*Implementation:* Server-side web-application. One instance for each connected user. Implementation languages: Dart, C++, Java. Data received via Google map API or directly from device in JSON format. In demo purpose online gps-tracking service http://livegpstracks.com/  can be used which send location data in JSON format on HTTP request. This service was already in my “Concert for city and 4 musicians” media-performance.  
 
 ####Sound Generator
 *Purpose:* Generate soundscape from location data. Data queried from database using raw SQL or XML. Module output is separate files or audio streams which directed to the Mixer module.
@@ -26,7 +26,7 @@ Server side consist following functional modules:
 
 Additional links: http://linux-sound.org/swss.html
 
-Main logic of sound generation concentrated in this module. This is the core of application and it needs more of investigations and experiments. Behavior of module can be adjusted by using Strategy pattern in implementation. *SoundMemory feature* also will be implemented in this module.  
+Main logic of the sound generation concentrated in this module. This is the core of application and it needs more investigations and experiments. Behavior of module can be adjusted by using Strategy pattern in implementation. *SoundMemory feature* will also be implemented in this module.  
 
 ####Mixer   
 *Purpose:* Mix sound source from Generator to output stream (or file) for Streamer.
@@ -39,8 +39,8 @@ Possible languages:  CSound, PureData (Max/MSP), C++.
 http://www.icecast.org/
  
 ####Database
-*Purpose:* stored locations of users (depersonalized) with timestamp. Used as data source for Generator and Mixer.
-*Implementation:* no specific requirements at this moment.  
+*Purpose:* To store locations of users (depersonalized) with timestamp. It is used as data source for Generator and Mixer.
+*Implementation:* no specific requirements at the moment.  
 
 
 ## Rich-client version  
