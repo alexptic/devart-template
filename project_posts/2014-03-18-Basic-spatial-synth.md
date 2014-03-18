@@ -1,7 +1,6 @@
 ####Lyrical intermedia...
 Nice quote from great *Charles Babbage's The Ninth Bridgewater Treatise*, which surprisingly very good fit and describe of current project idea.  
-![quote1](http://books.google.ru/books?id=y_ERAAAAYAAJ&hl=ru&hl=ru&pg=PA111&img=1&zoom=3&sig=ACfU3U2-qqZrm7pALnfR8v25jyOVcK6lAQ&ci=111%2C1172%2C641%2C98&edge=0 "quote1")
-![quote2] (http://books.google.ru/books?id=y_ERAAAAYAAJ&hl=ru&hl=ru&pg=PA112&img=1&zoom=3&sig=ACfU3U19dn6quLAPaQEC4ZZVx4Eqq4D6Ow&ci=241%2C279%2C619%2C634&edge=0 "quote2")
+![quote1](http://books.google.ru/books?id=y_ERAAAAYAAJ&hl=ru&hl=ru&pg=PA111&img=1&zoom=3&sig=ACfU3U2-qqZrm7pALnfR8v25jyOVcK6lAQ&ci=111%2C1172%2C641%2C98&edge=0 "quote1")![quote2] (http://books.google.ru/books?id=y_ERAAAAYAAJ&hl=ru&hl=ru&pg=PA112&img=1&zoom=3&sig=ACfU3U19dn6quLAPaQEC4ZZVx4Eqq4D6Ow&ci=241%2C279%2C619%2C634&edge=0 "quote2")
   
 ####Back to technical stuff...
 I’ve desided to start from idea of the simple synth as the engine for Generator logic. The idea is based on architecture of additive synthesis. Links for reference:
