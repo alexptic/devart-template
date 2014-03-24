@@ -7,16 +7,17 @@ Since user would listen soundscape through individual headphones, here appears l
 
 Two standard techniques could be used.
 
-1. Panning
+- **Panning**.
 With variation in amount of audio signal for each speaker of headphones we could define virtual (hearable) placement of sound’s sources in horizontal direction.    
 
-2. Distance.
+- **Distance**.
 Applying filtering effects to sound source we could define virtual (hearable) placement of sound sources in the depth.
 Effective technics here are:
-- filtering of high-frequency component of the sound from distant sources  (when distance to the source is increasing);
-- more reverberation applying and more dissipation to the sounds from distant sources; 
-- small or no reverberation to closer sources and to the waveform of current traveler;
+  - filtering of high-frequency component of the sound from distant sources (when distance to the source is increasing);
+  - more reverberation applying and more dissipation to the sounds from distant sources; 
+  - small or no reverberation to closer sources and to the waveform of current traveler;
 
-Mixing of sounds sources from behind of the traveler is quiet tricky since we use two-channel headphones. Good approach and could be solution for all mixing feature is using 3D FMOD engine. In addition, FMOD is integrated in OF platfrom.
+Mixing of sounds sources from behind of the traveler is quiet tricky since we use two-channel headphones. Good approach and could be solution for all mixing feature is using 3D FMOD engine:
 http://www.fmod.org/
+In addition, FMOD is integrated in OF platfrom.
 
