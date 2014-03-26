@@ -7,8 +7,9 @@ Draft plan for prototyping.
 ![proto2](../project_images/proto2.png?raw=true "proto2")
 4. One-client mode testing. At this stage first prototype of Android applicaton would be created and connected to the prototype application. SoundMemory feature and local mixing testing at this stage.
 5. Streaming feature was added.
+
 ![proto3](../project_images/proto3.png?raw=true "proto3")
 6. Porting the application to the web server-side.
-7. Usres management system
+7. Usres management system.
 8. Multiple mobile clients testing, improvements of Android application.
  
